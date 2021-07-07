@@ -1,0 +1,15 @@
+Notice 0: Reading LEF file:  /project/openlane/mgmt_core/runs/mgmt_core/tmp/merged.lef
+Notice 0:     Created 13 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 442 library cells
+Notice 0: Finished LEF file:  /project/openlane/mgmt_core/runs/mgmt_core/tmp/merged.lef
+Notice 0: 
+Reading DEF file: /project/openlane/mgmt_core/runs/mgmt_core/tmp/floorplan/3-verilog2def_openroad.def
+Notice 0: Design: mgmt_core
+Notice 0:     Created 931 pins.
+Notice 0:     Created 26455 components and 200202 component-terminals.
+Notice 0:     Created 26827 nets and 94380 connections.
+Notice 0: Finished DEF file: /project/openlane/mgmt_core/runs/mgmt_core/tmp/floorplan/3-verilog2def_openroad.def
+Top-level design name: mgmt_core
+Block boundaries: 0 0 2250000 840000
+Writing /project/openlane/mgmt_core/runs/mgmt_core/tmp/floorplan/4-ioPlacer.def

@@ -1,0 +1,59 @@
+
+19. Printing statistics.
+
+=== mgmt_core ===
+
+   Number of wires:              20828
+   Number of wire bits:          26528
+   Number of public wires:         507
+   Number of public wire bits:    5606
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              25089
+     $_ANDNOT_                    4868
+     $_AND_                        842
+     $_DFFE_NN0P_                   20
+     $_DFFE_NN1P_                   36
+     $_DFFE_NP0P_                   29
+     $_DFFE_PN0N_                   10
+     $_DFFE_PN0P_                  212
+     $_DFFE_PN1N_                    7
+     $_DFFE_PN1P_                   25
+     $_DFFE_PN_                      7
+     $_DFFE_PP0P_                    9
+     $_DFFE_PP_                   1641
+     $_DFF_NP0_                      4
+     $_DFF_NP1_                      1
+     $_DFF_N_                        4
+     $_DFF_PN0_                     25
+     $_DFF_PN1_                      8
+     $_DFF_PP1_                      1
+     $_DFF_P_                      156
+     $_MUX_                       6046
+     $_NAND_                       893
+     $_NOR_                        757
+     $_NOT_                       1116
+     $_ORNOT_                      607
+     $_OR_                        4466
+     $_SDFFCE_PN0P_                 41
+     $_SDFFCE_PN1P_                  8
+     $_SDFFCE_PP0P_                175
+     $_SDFFCE_PP1P_                  1
+     $_SDFFE_PN0N_                   1
+     $_SDFFE_PN0P_                1043
+     $_SDFFE_PN1N_                   4
+     $_SDFFE_PN1P_                 287
+     $_SDFFE_PP0P_                  20
+     $_SDFFE_PP1N_                   2
+     $_SDFFE_PP1P_                  11
+     $_SDFF_PN0_                   186
+     $_SDFF_PN1_                     3
+     $_SDFF_PP0_                    40
+     $_SDFF_PP1_                     2
+     $_TBUF_                        34
+     $_XNOR_                       244
+     $_XOR_                       1195
+     DFFRAM                          1
+     digital_pll                     1
+

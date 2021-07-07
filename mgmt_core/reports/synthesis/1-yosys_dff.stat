@@ -1,0 +1,32 @@
+
+30. Printing statistics.
+
+=== mgmt_core ===
+
+   Number of wires:              46924
+   Number of wire bits:          52624
+   Number of public wires:         507
+   Number of public wire bits:    5606
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              29112
+     $_ANDNOT_                    4868
+     $_AND_                        842
+     $_MUX_                       5413
+     $_NAND_                       893
+     $_NOR_                        757
+     $_NOT_                       1288
+     $_ORNOT_                      607
+     $_OR_                        4466
+     $_XNOR_                       244
+     $_XOR_                       1195
+     DFFRAM                          1
+     digital_pll                     1
+     sky130_fd_sc_hd__dfrtp_2      309
+     sky130_fd_sc_hd__dfstp_2       78
+     sky130_fd_sc_hd__dfxtp_2     3632
+     sky130_fd_sc_hd__ebufn_2       34
+     sky130_fd_sc_hd__mux2_1      3701
+     sky130_fd_sc_hd__mux4_1       783
+

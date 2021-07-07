@@ -1,0 +1,19 @@
+Design Name: mgmt_core
+Run Directory: /project/openlane/mgmt_core/runs/mgmt_core
+----------------------------------------
+
+Magic DRC Summary:
+Source: /project/openlane/mgmt_core/runs/mgmt_core/reports/magic//31-magic.drc
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /project/openlane/mgmt_core/runs/mgmt_core/results/lvs/mgmt_core.lvs_parsed.lef.log
+LVS reports no net, device, pin, or property mismatches.
+Total errors = 0
+----------------------------------------
+
+Antenna Summary:
+Source: /project/openlane/mgmt_core/runs/mgmt_core/reports/routing//33-antenna.rpt
+Number of pins violated: 43
+Number of nets violated: 36

@@ -1,0 +1,15 @@
+Notice 0: Reading LEF file:  /project/openlane/mgmt_core/runs/mgmt_core/tmp/merged.lef
+Notice 0:     Created 13 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 442 library cells
+Notice 0: Finished LEF file:  /project/openlane/mgmt_core/runs/mgmt_core/tmp/merged.lef
+Notice 0: 
+Reading DEF file: /project/openlane/mgmt_core/runs/mgmt_core/tmp/routing/17-addspacers.obs.def
+Notice 0: Design: mgmt_core
+Notice 0: 		Created 100000 Insts
+Notice 0:     Created 933 pins.
+Notice 0:     Created 172457 components and 772149 component-terminals.
+Notice 0:     Created 2 special nets and 0 connections.
+Notice 0:     Created 27382 nets and 121907 connections.
+Notice 0: Finished DEF file: /project/openlane/mgmt_core/runs/mgmt_core/tmp/routing/17-addspacers.obs.def
+Creating an obstruction on met5 at 0 0 2250000 840000 (DBU)

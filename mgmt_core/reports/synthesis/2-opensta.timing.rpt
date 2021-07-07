@@ -1,0 +1,58 @@
+Startpoint: clock (clock source 'clock')
+Endpoint: mgmt_out_data[14] (output port clocked by clock)
+Path Group: clock
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00   25.00   25.00   clock clock (fall edge)
+                         58.13   83.13   clock network delay
+                                 83.13 v mgmt_out_data[14] (out)
+                                 83.13   data arrival time
+
+                  0.00   50.00   50.00   clock clock (rise edge)
+                          0.00   50.00   clock network delay (ideal)
+                          0.00   50.00   clock reconvergence pessimism
+                        -10.00   40.00   output external delay
+                                 40.00   data required time
+-----------------------------------------------------------------------------
+                                 40.00   data required time
+                                -83.13   data arrival time
+-----------------------------------------------------------------------------
+                                -43.13   slack (VIOLATED)
+
+
+Startpoint: _47458_ (rising edge-triggered flip-flop)
+Endpoint: core_clk (output port clocked by clock)
+Path Group: clock
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.06    0.00    0.00 ^ _47458_/CLK (sky130_fd_sc_hd__dfstp_2)
+                  0.11    1.16    1.16 ^ _47458_/Q (sky130_fd_sc_hd__dfstp_2)
+     3    0.01                           clocking.divider.odd_0.out_counter2 (net)
+                  0.11    0.00    1.16 ^ _34297_/B2 (sky130_fd_sc_hd__a22o_2)
+                  0.07    0.27    1.43 ^ _34297_/X (sky130_fd_sc_hd__a22o_2)
+     1    0.00                           _16261_ (net)
+                  0.07    0.00    1.43 ^ _34298_/B2 (sky130_fd_sc_hd__a22o_2)
+                  0.14    0.33    1.76 ^ _34298_/X (sky130_fd_sc_hd__a22o_2)
+     7    0.01                           clocking.divider.out (net)
+                  0.14    0.00    1.76 ^ _40090_/A1 (sky130_fd_sc_hd__mux2_1)
+                 89.99   64.48   66.23 ^ _40090_/X (sky130_fd_sc_hd__mux2_1)
+  3852    6.65                           core_clk (net)
+                 89.99    0.00   66.23 ^ core_clk (out)
+                                 66.23   data arrival time
+
+                  0.00   50.00   50.00   clock clock (rise edge)
+                          0.00   50.00   clock network delay (ideal)
+                          0.00   50.00   clock reconvergence pessimism
+                        -10.00   40.00   output external delay
+                                 40.00   data required time
+-----------------------------------------------------------------------------
+                                 40.00   data required time
+                                -66.23   data arrival time
+-----------------------------------------------------------------------------
+                                -26.23   slack (VIOLATED)
+
+

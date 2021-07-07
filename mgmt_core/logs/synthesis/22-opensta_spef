@@ -1,0 +1,608 @@
+OpenSTA 2.3.0 38b40303a8 Copyright (c) 2019, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+Warning: /home/ma/ef/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib line 31, default_operating_condition ff_n40C_1v95 not found.
+Warning: /home/ma/ef/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib line 32, default_operating_condition ss_100C_1v60 not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/synthesis/mgmt_core.synthesis_preroute.v line 94405, module digital_pll not found.  Creating black box for pll.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/synthesis/mgmt_core.synthesis_preroute.v line 94442, module DFFRAM not found.  Creating black box for \soc.soc_mem.mem.SRAM .
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/synthesis/mgmt_core.synthesis_preroute.v line 95592, module sky130_fd_sc_hd__tapvpwrvgnd_1 not found.  Creating black box for PHY_1072.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/synthesis/mgmt_core.synthesis_preroute.v line 142915, module sky130_fd_sc_hd__fill_2 not found.  Creating black box for FILLER_0_27.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/synthesis/mgmt_core.synthesis_preroute.v line 143491, module sky130_fd_sc_hd__fill_1 not found.  Creating black box for FILLER_1_864.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78478, instance ANTENNA_soc.soc_mem.mem.SRAM_A[0]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78492, net ANTENNA_soc.soc_mem.mem.SRAM_A[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78559, net ANTENNA_soc.soc_mem.mem.SRAM_A[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78566, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[0].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78618, net ANTENNA_soc.soc_mem.mem.SRAM_A[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78618, net ANTENNA_soc.soc_mem.mem.SRAM_A[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78660, instance ANTENNA_soc.soc_mem.mem.SRAM_A[1]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78675, net ANTENNA_soc.soc_mem.mem.SRAM_A[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78686, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[1].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78753, net ANTENNA_soc.soc_mem.mem.SRAM_A[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78758, net ANTENNA_soc.soc_mem.mem.SRAM_A[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78758, net ANTENNA_soc.soc_mem.mem.SRAM_A[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78765, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[1].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78766, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[1].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78766, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[1].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78831, net ANTENNA_soc.soc_mem.mem.SRAM_A[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78831, net ANTENNA_soc.soc_mem.mem.SRAM_A[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78869, instance ANTENNA_soc.soc_mem.mem.SRAM_A[2]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78882, net ANTENNA_soc.soc_mem.mem.SRAM_A[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78892, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[2].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78943, net ANTENNA_soc.soc_mem.mem.SRAM_A[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78946, net ANTENNA_soc.soc_mem.mem.SRAM_A[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78946, net ANTENNA_soc.soc_mem.mem.SRAM_A[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78955, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[2].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78956, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[2].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78956, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[2].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78991, net ANTENNA_soc.soc_mem.mem.SRAM_A[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78991, net ANTENNA_soc.soc_mem.mem.SRAM_A[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 78993, net ANTENNA_soc.soc_mem.mem.SRAM_A[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79037, instance ANTENNA_soc.soc_mem.mem.SRAM_A[3]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79053, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[3].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79105, net ANTENNA_soc.soc_mem.mem.SRAM_A[3] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79136, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[3].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79137, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[3].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79137, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[3].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79193, net ANTENNA_soc.soc_mem.mem.SRAM_A[3] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79193, net ANTENNA_soc.soc_mem.mem.SRAM_A[3] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79194, net ANTENNA_soc.soc_mem.mem.SRAM_A[3] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79255, instance ANTENNA_soc.soc_mem.mem.SRAM_A[4]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79270, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[4].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79309, net ANTENNA_soc.soc_mem.mem.SRAM_A[4] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79327, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[4].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79328, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[4].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79328, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[4].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79370, net ANTENNA_soc.soc_mem.mem.SRAM_A[4] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79370, net ANTENNA_soc.soc_mem.mem.SRAM_A[4] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79371, net ANTENNA_soc.soc_mem.mem.SRAM_A[4] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79419, instance ANTENNA_soc.soc_mem.mem.SRAM_A[5]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79433, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[5].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79478, net ANTENNA_soc.soc_mem.mem.SRAM_A[5] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79503, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[5].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79504, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[5].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79504, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[5].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79520, net ANTENNA_soc.soc_mem.mem.SRAM_A[5] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79553, net ANTENNA_soc.soc_mem.mem.SRAM_A[5] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79553, net ANTENNA_soc.soc_mem.mem.SRAM_A[5] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79556, net ANTENNA_soc.soc_mem.mem.SRAM_A[5] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79609, instance ANTENNA_soc.soc_mem.mem.SRAM_A[6]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79623, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[6].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79697, net ANTENNA_soc.soc_mem.mem.SRAM_A[6] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79726, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[6].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79727, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[6].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79727, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[6].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79807, net ANTENNA_soc.soc_mem.mem.SRAM_A[6] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79807, net ANTENNA_soc.soc_mem.mem.SRAM_A[6] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79808, net ANTENNA_soc.soc_mem.mem.SRAM_A[6] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79876, instance ANTENNA_soc.soc_mem.mem.SRAM_A[7]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79892, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[7].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79959, net ANTENNA_soc.soc_mem.mem.SRAM_A[7] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79982, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[7].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79983, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[7].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 79983, soc.soc_mem.mem.SRAM not connected to net mgmt_addr[7].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 80061, net ANTENNA_soc.soc_mem.mem.SRAM_A[7] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 80061, net ANTENNA_soc.soc_mem.mem.SRAM_A[7] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 80062, net ANTENNA_soc.soc_mem.mem.SRAM_A[7] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 89084, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[0]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 89184, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[0].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 89266, net ANTENNA_soc.soc_mem.mem.SRAM_Di[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 89375, net ANTENNA_soc.soc_mem.mem.SRAM_Di[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 89378, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[0].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 89509, net ANTENNA_soc.soc_mem.mem.SRAM_Di[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 89512, net ANTENNA_soc.soc_mem.mem.SRAM_Di[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 89512, net ANTENNA_soc.soc_mem.mem.SRAM_Di[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 89554, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[10]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 89573, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[10].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 89765, net ANTENNA_soc.soc_mem.mem.SRAM_Di[10] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 89811, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[10].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 90048, net ANTENNA_soc.soc_mem.mem.SRAM_Di[10] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 90048, net ANTENNA_soc.soc_mem.mem.SRAM_Di[10] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 90049, net ANTENNA_soc.soc_mem.mem.SRAM_Di[10] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 90147, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[11]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 90166, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[11].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 90354, net ANTENNA_soc.soc_mem.mem.SRAM_Di[11] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 90374, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[11].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 90485, net ANTENNA_soc.soc_mem.mem.SRAM_Di[11] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 90622, net ANTENNA_soc.soc_mem.mem.SRAM_Di[11] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 90622, net ANTENNA_soc.soc_mem.mem.SRAM_Di[11] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 90624, net ANTENNA_soc.soc_mem.mem.SRAM_Di[11] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 90665, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[12]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 90684, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[12].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 90791, net ANTENNA_soc.soc_mem.mem.SRAM_Di[12] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 90898, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[12].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 91012, net ANTENNA_soc.soc_mem.mem.SRAM_Di[12] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 91159, net ANTENNA_soc.soc_mem.mem.SRAM_Di[12] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 91159, net ANTENNA_soc.soc_mem.mem.SRAM_Di[12] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 91202, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[13]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 91218, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[13].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 91248, net ANTENNA_soc.soc_mem.mem.SRAM_Di[13] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 91414, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[13].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 91445, net ANTENNA_soc.soc_mem.mem.SRAM_Di[13] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 91448, net ANTENNA_soc.soc_mem.mem.SRAM_Di[13] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 91448, net ANTENNA_soc.soc_mem.mem.SRAM_Di[13] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 91602, net ANTENNA_soc.soc_mem.mem.SRAM_Di[13] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 91602, net ANTENNA_soc.soc_mem.mem.SRAM_Di[13] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 91604, net ANTENNA_soc.soc_mem.mem.SRAM_Di[13] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 91700, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[14]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 91748, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[14].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 91853, net ANTENNA_soc.soc_mem.mem.SRAM_Di[14] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 91917, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[14].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 92057, net ANTENNA_soc.soc_mem.mem.SRAM_Di[14] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 92057, net ANTENNA_soc.soc_mem.mem.SRAM_Di[14] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 92058, net ANTENNA_soc.soc_mem.mem.SRAM_Di[14] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 92130, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[15]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 92377, net ANTENNA_soc.soc_mem.mem.SRAM_Di[15] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 92473, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[15].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 92545, net ANTENNA_soc.soc_mem.mem.SRAM_Di[15] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 92700, net ANTENNA_soc.soc_mem.mem.SRAM_Di[15] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 92700, net ANTENNA_soc.soc_mem.mem.SRAM_Di[15] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 92741, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[16]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 92842, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[16].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 92843, net ANTENNA_soc.soc_mem.mem.SRAM_Di[16] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 93024, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[16].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 93025, net ANTENNA_soc.soc_mem.mem.SRAM_Di[16] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 93120, net ANTENNA_soc.soc_mem.mem.SRAM_Di[16] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 93120, net ANTENNA_soc.soc_mem.mem.SRAM_Di[16] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 93147, net ANTENNA_soc.soc_mem.mem.SRAM_Di[16] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 93183, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[17]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 93235, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[17].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 93393, net ANTENNA_soc.soc_mem.mem.SRAM_Di[17] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 93474, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[17].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 93675, net ANTENNA_soc.soc_mem.mem.SRAM_Di[17] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 93675, net ANTENNA_soc.soc_mem.mem.SRAM_Di[17] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 93676, net ANTENNA_soc.soc_mem.mem.SRAM_Di[17] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 93776, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[18]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 93881, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[18].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 93949, net ANTENNA_soc.soc_mem.mem.SRAM_Di[18] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 94064, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[18].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 94179, net ANTENNA_soc.soc_mem.mem.SRAM_Di[18] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 94179, net ANTENNA_soc.soc_mem.mem.SRAM_Di[18] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 94180, net ANTENNA_soc.soc_mem.mem.SRAM_Di[18] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 94217, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[19]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 94417, net ANTENNA_soc.soc_mem.mem.SRAM_Di[19] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 94432, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[19].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 94681, net ANTENNA_soc.soc_mem.mem.SRAM_Di[19] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 94681, net ANTENNA_soc.soc_mem.mem.SRAM_Di[19] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 94682, net ANTENNA_soc.soc_mem.mem.SRAM_Di[19] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 94722, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[1]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 94925, net ANTENNA_soc.soc_mem.mem.SRAM_Di[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 94984, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[1].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 95006, net ANTENNA_soc.soc_mem.mem.SRAM_Di[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 95198, net ANTENNA_soc.soc_mem.mem.SRAM_Di[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 95198, net ANTENNA_soc.soc_mem.mem.SRAM_Di[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 95314, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[20]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 95331, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[20].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 95505, net ANTENNA_soc.soc_mem.mem.SRAM_Di[20] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 95552, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[20].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 95764, net ANTENNA_soc.soc_mem.mem.SRAM_Di[20] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 95764, net ANTENNA_soc.soc_mem.mem.SRAM_Di[20] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 95765, net ANTENNA_soc.soc_mem.mem.SRAM_Di[20] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 95869, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[21]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 95883, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[21].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 95911, net ANTENNA_soc.soc_mem.mem.SRAM_Di[21] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 96071, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[21].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 96104, net ANTENNA_soc.soc_mem.mem.SRAM_Di[21] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 96254, net ANTENNA_soc.soc_mem.mem.SRAM_Di[21] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 96254, net ANTENNA_soc.soc_mem.mem.SRAM_Di[21] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 96341, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[22]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 96422, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[22].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 96536, net ANTENNA_soc.soc_mem.mem.SRAM_Di[22] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 96631, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[22].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 96795, net ANTENNA_soc.soc_mem.mem.SRAM_Di[22] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 96795, net ANTENNA_soc.soc_mem.mem.SRAM_Di[22] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 96796, net ANTENNA_soc.soc_mem.mem.SRAM_Di[22] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 96861, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[23]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 97036, net ANTENNA_soc.soc_mem.mem.SRAM_Di[23] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 97037, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[23].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 97327, net ANTENNA_soc.soc_mem.mem.SRAM_Di[23] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 97328, net ANTENNA_soc.soc_mem.mem.SRAM_Di[23] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 97328, net ANTENNA_soc.soc_mem.mem.SRAM_Di[23] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 97329, net ANTENNA_soc.soc_mem.mem.SRAM_Di[23] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 97329, net ANTENNA_soc.soc_mem.mem.SRAM_Di[23] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 97330, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[23].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 97500, net ANTENNA_soc.soc_mem.mem.SRAM_Di[23] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 97500, net ANTENNA_soc.soc_mem.mem.SRAM_Di[23] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 97502, net ANTENNA_soc.soc_mem.mem.SRAM_Di[23] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 97553, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[24]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 97597, net ANTENNA_soc.soc_mem.mem.SRAM_Di[24] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 97598, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[24].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 97842, net ANTENNA_soc.soc_mem.mem.SRAM_Di[24] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 97843, net ANTENNA_soc.soc_mem.mem.SRAM_Di[24] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 97843, net ANTENNA_soc.soc_mem.mem.SRAM_Di[24] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 97844, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[24].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 98048, net ANTENNA_soc.soc_mem.mem.SRAM_Di[24] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 98048, net ANTENNA_soc.soc_mem.mem.SRAM_Di[24] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 98050, net ANTENNA_soc.soc_mem.mem.SRAM_Di[24] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 98177, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[25]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 98373, net ANTENNA_soc.soc_mem.mem.SRAM_Di[25] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 98374, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[25].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 98644, net ANTENNA_soc.soc_mem.mem.SRAM_Di[25] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 98645, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[25].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 98780, net ANTENNA_soc.soc_mem.mem.SRAM_Di[25] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 98780, net ANTENNA_soc.soc_mem.mem.SRAM_Di[25] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 98799, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[26]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 98973, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[26].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 99008, net ANTENNA_soc.soc_mem.mem.SRAM_Di[26] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 99211, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[26].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 99285, net ANTENNA_soc.soc_mem.mem.SRAM_Di[26] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 99285, net ANTENNA_soc.soc_mem.mem.SRAM_Di[26] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 99286, net ANTENNA_soc.soc_mem.mem.SRAM_Di[26] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 99352, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[27]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 99563, net ANTENNA_soc.soc_mem.mem.SRAM_Di[27] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 99585, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[27].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 99700, net ANTENNA_soc.soc_mem.mem.SRAM_Di[27] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 99862, net ANTENNA_soc.soc_mem.mem.SRAM_Di[27] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 99862, net ANTENNA_soc.soc_mem.mem.SRAM_Di[27] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 99910, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[28]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 99929, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[28].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 100106, net ANTENNA_soc.soc_mem.mem.SRAM_Di[28] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 100151, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[28].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 100368, net ANTENNA_soc.soc_mem.mem.SRAM_Di[28] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 100368, net ANTENNA_soc.soc_mem.mem.SRAM_Di[28] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 100369, net ANTENNA_soc.soc_mem.mem.SRAM_Di[28] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 100470, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[29]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 100488, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[29].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 100632, net ANTENNA_soc.soc_mem.mem.SRAM_Di[29] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 100668, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[29].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 100841, net ANTENNA_soc.soc_mem.mem.SRAM_Di[29] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 100841, net ANTENNA_soc.soc_mem.mem.SRAM_Di[29] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 100842, net ANTENNA_soc.soc_mem.mem.SRAM_Di[29] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 100931, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[2]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 100977, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[2].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 101091, net ANTENNA_soc.soc_mem.mem.SRAM_Di[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 101164, net ANTENNA_soc.soc_mem.mem.SRAM_Di[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 101165, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[2].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 101310, net ANTENNA_soc.soc_mem.mem.SRAM_Di[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 101310, net ANTENNA_soc.soc_mem.mem.SRAM_Di[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 101405, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[30]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 101566, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[30].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 101644, net ANTENNA_soc.soc_mem.mem.SRAM_Di[30] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 101810, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[30].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 101956, net ANTENNA_soc.soc_mem.mem.SRAM_Di[30] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 101956, net ANTENNA_soc.soc_mem.mem.SRAM_Di[30] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 101957, net ANTENNA_soc.soc_mem.mem.SRAM_Di[30] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 101981, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[31]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 102054, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[31].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 102210, net ANTENNA_soc.soc_mem.mem.SRAM_Di[31] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 102281, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[31].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 102507, net ANTENNA_soc.soc_mem.mem.SRAM_Di[31] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 102507, net ANTENNA_soc.soc_mem.mem.SRAM_Di[31] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 102508, net ANTENNA_soc.soc_mem.mem.SRAM_Di[31] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 102542, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[3]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 102640, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[3].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 102739, net ANTENNA_soc.soc_mem.mem.SRAM_Di[3] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 102857, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[3].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 103008, net ANTENNA_soc.soc_mem.mem.SRAM_Di[3] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 103008, net ANTENNA_soc.soc_mem.mem.SRAM_Di[3] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 103009, net ANTENNA_soc.soc_mem.mem.SRAM_Di[3] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 103071, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[4]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 103321, net ANTENNA_soc.soc_mem.mem.SRAM_Di[4] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 103343, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[4].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 103504, net ANTENNA_soc.soc_mem.mem.SRAM_Di[4] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 103655, net ANTENNA_soc.soc_mem.mem.SRAM_Di[4] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 103655, net ANTENNA_soc.soc_mem.mem.SRAM_Di[4] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 103694, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[5]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 103736, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[5].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 103885, net ANTENNA_soc.soc_mem.mem.SRAM_Di[5] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 103954, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[5].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 104147, net ANTENNA_soc.soc_mem.mem.SRAM_Di[5] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 104147, net ANTENNA_soc.soc_mem.mem.SRAM_Di[5] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 104148, net ANTENNA_soc.soc_mem.mem.SRAM_Di[5] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 104250, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[6]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 104422, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[6].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 104491, net ANTENNA_soc.soc_mem.mem.SRAM_Di[6] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 104670, net ANTENNA_soc.soc_mem.mem.SRAM_Di[6] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 104672, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[6].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 104808, net ANTENNA_soc.soc_mem.mem.SRAM_Di[6] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 104808, net ANTENNA_soc.soc_mem.mem.SRAM_Di[6] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 104838, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[7]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 104974, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[7].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 105047, net ANTENNA_soc.soc_mem.mem.SRAM_Di[7] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 105200, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[7].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 105330, net ANTENNA_soc.soc_mem.mem.SRAM_Di[7] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 105330, net ANTENNA_soc.soc_mem.mem.SRAM_Di[7] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 105331, net ANTENNA_soc.soc_mem.mem.SRAM_Di[7] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 105369, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[8]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 105388, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[8].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 105564, net ANTENNA_soc.soc_mem.mem.SRAM_Di[8] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 105586, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[8].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 105817, net ANTENNA_soc.soc_mem.mem.SRAM_Di[8] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 105817, net ANTENNA_soc.soc_mem.mem.SRAM_Di[8] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 105818, net ANTENNA_soc.soc_mem.mem.SRAM_Di[8] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 105864, instance ANTENNA_soc.soc_mem.mem.SRAM_Di[9]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 106021, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[9].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 106095, net ANTENNA_soc.soc_mem.mem.SRAM_Di[9] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 106263, soc.soc_mem.mem.SRAM not connected to net mgmt_wdata[9].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 106393, net ANTENNA_soc.soc_mem.mem.SRAM_Di[9] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 106393, net ANTENNA_soc.soc_mem.mem.SRAM_Di[9] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 106394, net ANTENNA_soc.soc_mem.mem.SRAM_Di[9] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1051183, pll not connected to net clocking.divider.even_0.clk.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1051289, pll not connected to net clocking.divider.even_0.clk.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1053239, pll not connected to net clocking.divider2.even_0.clk.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057216, instance ANTENNA_pll_div[0]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057223, pll not connected to net housekeeping.pll_div\[0\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057241, net ANTENNA_pll_div[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057248, pll not connected to net housekeeping.pll_div\[0\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057251, net ANTENNA_pll_div[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057271, net ANTENNA_pll_div[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057271, net ANTENNA_pll_div[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057290, instance ANTENNA_pll_div[1]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057311, net ANTENNA_pll_div[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057313, pll not connected to net housekeeping.pll_div\[1\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057347, net ANTENNA_pll_div[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057349, pll not connected to net housekeeping.pll_div\[1\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057371, net ANTENNA_pll_div[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057371, net ANTENNA_pll_div[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057373, net ANTENNA_pll_div[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057385, instance ANTENNA_pll_div[2]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057395, net ANTENNA_pll_div[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057428, net ANTENNA_pll_div[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057452, net ANTENNA_pll_div[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057452, net ANTENNA_pll_div[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057476, instance ANTENNA_pll_div[3]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057484, pll not connected to net housekeeping.pll_div\[3\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057501, net ANTENNA_pll_div[3] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057509, pll not connected to net housekeeping.pll_div\[3\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057527, net ANTENNA_pll_div[3] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057527, net ANTENNA_pll_div[3] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057528, net ANTENNA_pll_div[3] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057549, instance ANTENNA_pll_div[4]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057558, pll not connected to net housekeeping.pll_div\[4\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057581, net ANTENNA_pll_div[4] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057589, pll not connected to net housekeeping.pll_div\[4\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057591, pll not connected to net housekeeping.pll_div\[4\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057619, net ANTENNA_pll_div[4] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057619, net ANTENNA_pll_div[4] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057620, net ANTENNA_pll_div[4] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057684, instance ANTENNA_pll_ext_trim[0]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057691, pll not connected to net housekeeping.pll_trim\[0\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057705, net ANTENNA_pll_ext_trim[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057710, pll not connected to net housekeeping.pll_trim\[0\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057724, net ANTENNA_pll_ext_trim[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057724, net ANTENNA_pll_ext_trim[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057725, net ANTENNA_pll_ext_trim[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057744, instance ANTENNA_pll_ext_trim[10]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057754, net ANTENNA_pll_ext_trim[10] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057781, pll not connected to net housekeeping.pll_trim\[10\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057783, net ANTENNA_pll_ext_trim[10] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057805, net ANTENNA_pll_ext_trim[10] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057805, net ANTENNA_pll_ext_trim[10] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057828, instance ANTENNA_pll_ext_trim[11]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057861, net ANTENNA_pll_ext_trim[11] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057871, pll not connected to net housekeeping.pll_trim\[11\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057900, net ANTENNA_pll_ext_trim[11] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057900, net ANTENNA_pll_ext_trim[11] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057901, net ANTENNA_pll_ext_trim[11] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057921, instance ANTENNA_pll_ext_trim[12]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057928, net ANTENNA_pll_ext_trim[12] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057936, pll not connected to net housekeeping.pll_trim\[12\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057954, net ANTENNA_pll_ext_trim[12] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057964, pll not connected to net housekeeping.pll_trim\[12\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057976, net ANTENNA_pll_ext_trim[12] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057976, net ANTENNA_pll_ext_trim[12] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1057994, instance ANTENNA_pll_ext_trim[13]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058021, net ANTENNA_pll_ext_trim[13] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058031, pll not connected to net housekeeping.pll_trim\[13\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058053, net ANTENNA_pll_ext_trim[13] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058053, net ANTENNA_pll_ext_trim[13] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058054, net ANTENNA_pll_ext_trim[13] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058074, instance ANTENNA_pll_ext_trim[14]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058081, pll not connected to net housekeeping.pll_trim\[14\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058086, net ANTENNA_pll_ext_trim[14] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058108, pll not connected to net housekeeping.pll_trim\[14\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058113, net ANTENNA_pll_ext_trim[14] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058128, net ANTENNA_pll_ext_trim[14] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058128, net ANTENNA_pll_ext_trim[14] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058129, net ANTENNA_pll_ext_trim[14] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058151, instance ANTENNA_pll_ext_trim[15]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058159, net ANTENNA_pll_ext_trim[15] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058187, net ANTENNA_pll_ext_trim[15] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058188, pll not connected to net housekeeping.pll_trim\[15\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058206, net ANTENNA_pll_ext_trim[15] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058206, net ANTENNA_pll_ext_trim[15] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058227, instance ANTENNA_pll_ext_trim[16]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058236, pll not connected to net housekeeping.pll_trim\[16\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058249, net ANTENNA_pll_ext_trim[16] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058258, pll not connected to net housekeeping.pll_trim\[16\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058272, net ANTENNA_pll_ext_trim[16] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058272, net ANTENNA_pll_ext_trim[16] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058273, net ANTENNA_pll_ext_trim[16] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058293, instance ANTENNA_pll_ext_trim[17]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058328, net ANTENNA_pll_ext_trim[17] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058351, pll not connected to net housekeeping.pll_trim\[17\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058367, net ANTENNA_pll_ext_trim[17] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058367, net ANTENNA_pll_ext_trim[17] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058368, net ANTENNA_pll_ext_trim[17] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058375, instance ANTENNA_pll_ext_trim[18]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058383, pll not connected to net housekeeping.pll_trim\[18\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058396, net ANTENNA_pll_ext_trim[18] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058406, pll not connected to net housekeeping.pll_trim\[18\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058419, net ANTENNA_pll_ext_trim[18] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058423, net ANTENNA_pll_ext_trim[18] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058423, net ANTENNA_pll_ext_trim[18] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058425, net ANTENNA_pll_ext_trim[18] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058442, instance ANTENNA_pll_ext_trim[19]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058449, pll not connected to net housekeeping.pll_trim\[19\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058469, net ANTENNA_pll_ext_trim[19] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058477, pll not connected to net housekeeping.pll_trim\[19\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058499, net ANTENNA_pll_ext_trim[19] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058499, net ANTENNA_pll_ext_trim[19] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058500, net ANTENNA_pll_ext_trim[19] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058520, instance ANTENNA_pll_ext_trim[1]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058527, net ANTENNA_pll_ext_trim[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058552, net ANTENNA_pll_ext_trim[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058553, pll not connected to net housekeeping.pll_trim\[1\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058570, net ANTENNA_pll_ext_trim[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058570, net ANTENNA_pll_ext_trim[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058592, instance ANTENNA_pll_ext_trim[20]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058603, pll not connected to net housekeeping.pll_trim\[20\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058615, net ANTENNA_pll_ext_trim[20] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058622, pll not connected to net housekeeping.pll_trim\[20\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058642, net ANTENNA_pll_ext_trim[20] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058642, net ANTENNA_pll_ext_trim[20] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058643, net ANTENNA_pll_ext_trim[20] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058651, instance ANTENNA_pll_ext_trim[21]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058670, net ANTENNA_pll_ext_trim[21] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058698, pll not connected to net housekeeping.pll_trim\[21\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058700, net ANTENNA_pll_ext_trim[21] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058721, net ANTENNA_pll_ext_trim[21] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058721, net ANTENNA_pll_ext_trim[21] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058739, pll not connected to net housekeeping.pll_trim\[22\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058753, pll not connected to net housekeeping.pll_trim\[22\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058776, instance ANTENNA_pll_ext_trim[23]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058787, pll not connected to net housekeeping.pll_trim\[23\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058796, net ANTENNA_pll_ext_trim[23] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058807, pll not connected to net housekeeping.pll_trim\[23\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058817, net ANTENNA_pll_ext_trim[23] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058817, net ANTENNA_pll_ext_trim[23] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058818, net ANTENNA_pll_ext_trim[23] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058836, instance ANTENNA_pll_ext_trim[24]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058848, net ANTENNA_pll_ext_trim[24] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058854, pll not connected to net housekeeping.pll_trim\[24\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058869, net ANTENNA_pll_ext_trim[24] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058870, net ANTENNA_pll_ext_trim[24] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058870, net ANTENNA_pll_ext_trim[24] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058877, pll not connected to net housekeeping.pll_trim\[24\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058883, net ANTENNA_pll_ext_trim[24] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058883, net ANTENNA_pll_ext_trim[24] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058884, net ANTENNA_pll_ext_trim[24] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058898, instance ANTENNA_pll_ext_trim[25]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058914, net ANTENNA_pll_ext_trim[25] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058919, net ANTENNA_pll_ext_trim[25] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058921, pll not connected to net housekeeping.pll_trim\[25\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058931, net ANTENNA_pll_ext_trim[25] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058931, net ANTENNA_pll_ext_trim[25] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058946, instance ANTENNA_pll_ext_trim[2]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058974, net ANTENNA_pll_ext_trim[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1058987, pll not connected to net housekeeping.pll_trim\[2\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059010, net ANTENNA_pll_ext_trim[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059010, net ANTENNA_pll_ext_trim[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059011, net ANTENNA_pll_ext_trim[2] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059037, instance ANTENNA_pll_ext_trim[3]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059044, pll not connected to net housekeeping.pll_trim\[3\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059049, net ANTENNA_pll_ext_trim[3] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059065, pll not connected to net housekeeping.pll_trim\[3\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059069, net ANTENNA_pll_ext_trim[3] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059070, net ANTENNA_pll_ext_trim[3] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059082, net ANTENNA_pll_ext_trim[3] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059082, net ANTENNA_pll_ext_trim[3] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059098, instance ANTENNA_pll_ext_trim[4]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059128, net ANTENNA_pll_ext_trim[4] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059137, pll not connected to net housekeeping.pll_trim\[4\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059163, net ANTENNA_pll_ext_trim[4] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059163, net ANTENNA_pll_ext_trim[4] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059164, net ANTENNA_pll_ext_trim[4] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059184, instance ANTENNA_pll_ext_trim[5]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059203, pll not connected to net housekeeping.pll_trim\[5\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059206, net ANTENNA_pll_ext_trim[5] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059243, pll not connected to net housekeeping.pll_trim\[5\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059246, net ANTENNA_pll_ext_trim[5] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059276, net ANTENNA_pll_ext_trim[5] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059276, net ANTENNA_pll_ext_trim[5] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059290, instance ANTENNA_pll_ext_trim[6]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059297, pll not connected to net housekeeping.pll_trim\[6\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059312, net ANTENNA_pll_ext_trim[6] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059319, pll not connected to net housekeeping.pll_trim\[6\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059322, net ANTENNA_pll_ext_trim[6] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059340, net ANTENNA_pll_ext_trim[6] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059340, net ANTENNA_pll_ext_trim[6] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059362, pll not connected to net housekeeping.pll_trim\[7\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059377, pll not connected to net housekeeping.pll_trim\[7\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059402, instance ANTENNA_pll_ext_trim[8]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059417, pll not connected to net housekeeping.pll_trim\[8\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059427, net ANTENNA_pll_ext_trim[8] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059438, pll not connected to net housekeeping.pll_trim\[8\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059452, net ANTENNA_pll_ext_trim[8] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059452, net ANTENNA_pll_ext_trim[8] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059453, net ANTENNA_pll_ext_trim[8] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059465, instance ANTENNA_pll_ext_trim[9]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059478, net ANTENNA_pll_ext_trim[9] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059480, pll not connected to net housekeeping.pll_trim\[9\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059504, net ANTENNA_pll_ext_trim[9] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059506, pll not connected to net housekeeping.pll_trim\[9\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059524, net ANTENNA_pll_ext_trim[9] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059524, net ANTENNA_pll_ext_trim[9] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1059526, net ANTENNA_pll_ext_trim[9] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1210982, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[0\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1211345, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[10\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1211646, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[11\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1211954, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[12\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1211980, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[13\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1212042, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[14\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1212093, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[15\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1212120, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[16\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1212142, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[17\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1212158, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[18\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1212172, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[19\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1212195, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[1\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1212221, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[20\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1212238, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[21\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1212263, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[22\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1212284, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[23\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1212299, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[24\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1212314, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[25\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1212329, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[26\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1212344, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[27\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1212467, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[28\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1212780, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[29\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1212795, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[2\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1213101, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[30\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1213454, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[31\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1214547, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[3\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1215790, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[4\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1215805, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[5\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1215832, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[6\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1215899, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[7\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1215948, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[8\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1216075, soc.soc_mem.mem.SRAM not connected to net soc.intercon.wbs_dat_i\[9\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247022, instance ANTENNA_soc.soc_mem.mem.SRAM_WE[0]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247031, soc.soc_mem.mem.SRAM not connected to net soc.soc_mem.mem.wen\[0\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247033, net ANTENNA_soc.soc_mem.mem.SRAM_WE[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247038, soc.soc_mem.mem.SRAM not connected to net soc.soc_mem.mem.wen\[0\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247039, soc.soc_mem.mem.SRAM not connected to net soc.soc_mem.mem.wen\[0\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247039, soc.soc_mem.mem.SRAM not connected to net soc.soc_mem.mem.wen\[0\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247042, net ANTENNA_soc.soc_mem.mem.SRAM_WE[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247042, net ANTENNA_soc.soc_mem.mem.SRAM_WE[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247043, net ANTENNA_soc.soc_mem.mem.SRAM_WE[0] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247050, instance ANTENNA_soc.soc_mem.mem.SRAM_WE[1]:DIODE not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247055, net ANTENNA_soc.soc_mem.mem.SRAM_WE[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247058, soc.soc_mem.mem.SRAM not connected to net soc.soc_mem.mem.wen\[1\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247068, net ANTENNA_soc.soc_mem.mem.SRAM_WE[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247070, soc.soc_mem.mem.SRAM not connected to net soc.soc_mem.mem.wen\[1\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247071, soc.soc_mem.mem.SRAM not connected to net soc.soc_mem.mem.wen\[1\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247071, soc.soc_mem.mem.SRAM not connected to net soc.soc_mem.mem.wen\[1\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247078, net ANTENNA_soc.soc_mem.mem.SRAM_WE[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247078, net ANTENNA_soc.soc_mem.mem.SRAM_WE[1] not found.
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247093, soc.soc_mem.mem.SRAM not connected to net soc.soc_mem.mem.wen\[2\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247098, soc.soc_mem.mem.SRAM not connected to net soc.soc_mem.mem.wen\[2\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247099, soc.soc_mem.mem.SRAM not connected to net soc.soc_mem.mem.wen\[2\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247099, soc.soc_mem.mem.SRAM not connected to net soc.soc_mem.mem.wen\[2\].
+Warning: /project/openlane/mgmt_core/runs/mgmt_core/results/routing/mgmt_core.spef line 1247118, soc.soc_mem.mem.SRAM not connected to net soc.soc_mem.mem.wen\[3\].
+create_clock [get_ports $::env(CLOCK_PORT)]  -name $::env(CLOCK_PORT)  -period $::env(CLOCK_PERIOD)
+set input_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
+set output_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
+puts "\[INFO\]: Setting output delay to: $output_delay_value"
+[INFO]: Setting output delay to: 10.0
+puts "\[INFO\]: Setting input delay to: $input_delay_value"
+[INFO]: Setting input delay to: 10.0
+set_max_fanout $::env(SYNTH_MAX_FANOUT) [current_design]
+set clk_indx [lsearch [all_inputs] [get_port $::env(CLOCK_PORT)]]
+#set rst_indx [lsearch [all_inputs] [get_port resetn]]
+set all_inputs_wo_clk [lreplace [all_inputs] $clk_indx $clk_indx]
+#set all_inputs_wo_clk_rst [lreplace $all_inputs_wo_clk $rst_indx $rst_indx]
+set all_inputs_wo_clk_rst $all_inputs_wo_clk
+# correct resetn
+set_input_delay $input_delay_value  -clock [get_clocks $::env(CLOCK_PORT)] $all_inputs_wo_clk_rst
+#set_input_delay 0.0 -clock [get_clocks $::env(CLOCK_PORT)] {resetn}
+set_output_delay $output_delay_value  -clock [get_clocks $::env(CLOCK_PORT)] [all_outputs]
+# TODO set this as parameter
+set_driving_cell -lib_cell $::env(SYNTH_DRIVING_CELL) -pin $::env(SYNTH_DRIVING_CELL_PIN) [all_inputs]
+set cap_load [expr $::env(SYNTH_CAP_LOAD) / 1000.0]
+puts "\[INFO\]: Setting load to: $cap_load"
+[INFO]: Setting load to: 0.01765
+set_load  $cap_load [all_outputs]
+tns 0.00
+wns 0.00

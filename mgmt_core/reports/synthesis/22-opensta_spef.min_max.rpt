@@ -1,0 +1,141 @@
+Startpoint: _46450_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _46503_ (removal check against rising-edge clock clock)
+Path Group: **async_default**
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _46450_/CLK (sky130_fd_sc_hd__dfstp_2)
+                  0.02    0.21    0.21 v _46450_/Q (sky130_fd_sc_hd__dfstp_2)
+     1    0.00                           clocking.reset_delay[0] (net)
+                  0.02    0.00    0.21 v _22131_/D (sky130_fd_sc_hd__or4_2)
+                  0.18    0.43    0.64 v _22131_/X (sky130_fd_sc_hd__or4_2)
+     6    0.06                           _08498_ (net)
+                  0.19    0.03    0.67 v _22132_/A (sky130_fd_sc_hd__buf_1)
+                  0.07    0.14    0.81 v _22132_/X (sky130_fd_sc_hd__buf_1)
+     8    0.02                           _08499_ (net)
+                  0.07    0.00    0.81 v _22133_/A (sky130_fd_sc_hd__inv_2)
+                  0.06    0.07    0.88 ^ _22133_/Y (sky130_fd_sc_hd__inv_2)
+     3    0.01                           _08500_ (net)
+                  0.06    0.00    0.88 ^ _22134_/A (sky130_fd_sc_hd__buf_1)
+                  0.55    0.41    1.29 ^ _22134_/X (sky130_fd_sc_hd__buf_1)
+     8    0.06                           _08501_ (net)
+                  0.55    0.00    1.29 ^ _22135_/A (sky130_fd_sc_hd__buf_1)
+                  0.26    0.20    1.50 ^ _22135_/X (sky130_fd_sc_hd__buf_1)
+     8    0.03                           _08502_ (net)
+                  0.26    0.00    1.50 ^ _22136_/A (sky130_fd_sc_hd__buf_1)
+                  0.38    0.30    1.80 ^ _22136_/X (sky130_fd_sc_hd__buf_1)
+     8    0.04                           _08503_ (net)
+                  0.38    0.00    1.80 ^ _22137_/A (sky130_fd_sc_hd__buf_1)
+                  0.76    0.55    2.35 ^ _22137_/X (sky130_fd_sc_hd__buf_1)
+     8    0.09                           _08504_ (net)
+                  0.76    0.00    2.35 ^ _22138_/A (sky130_fd_sc_hd__buf_1)
+                  0.20    0.15    2.50 ^ _22138_/X (sky130_fd_sc_hd__buf_1)
+     8    0.02                           _08505_ (net)
+                  0.20    0.00    2.50 ^ _22139_/A (sky130_fd_sc_hd__buf_1)
+                  0.23    0.20    2.70 ^ _22139_/X (sky130_fd_sc_hd__buf_1)
+     8    0.03                           _08506_ (net)
+                  0.23    0.00    2.70 ^ _22140_/A (sky130_fd_sc_hd__buf_1)
+                  0.46    0.35    3.05 ^ _22140_/X (sky130_fd_sc_hd__buf_1)
+   513    1.15                           core_rstn (net)
+                  0.46    0.00    3.05 ^ _46503_/RESET_B (sky130_fd_sc_hd__dfrtp_2)
+                                  3.05   data arrival time
+
+                  0.00    0.00    0.00   clock clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ _46503_/CLK (sky130_fd_sc_hd__dfrtp_2)
+                          0.30    0.30   library removal time
+                                  0.30   data required time
+-----------------------------------------------------------------------------
+                                  0.30   data required time
+                                 -3.05   data arrival time
+-----------------------------------------------------------------------------
+                                  2.75   slack (MET)
+
+
+Startpoint: _47875_ (rising edge-triggered flip-flop clocked by clock)
+Endpoint: _44665_ (rising edge-triggered flip-flop clocked by clock)
+Path Group: clock
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _47875_/CLK (sky130_fd_sc_hd__dfxtp_2)
+                  0.02    0.18    0.18 ^ _47875_/Q (sky130_fd_sc_hd__dfxtp_2)
+     2    0.00                           soc.spimemio.spimemio.xfer.xfer_tag[0] (net)
+                  0.02    0.00    0.18 ^ _44665_/D (sky130_fd_sc_hd__dfxtp_2)
+                                  0.18   data arrival time
+
+                  0.00    0.00    0.00   clock clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.00    0.00   clock reconvergence pessimism
+                                  0.00 ^ _44665_/CLK (sky130_fd_sc_hd__dfxtp_2)
+                         -0.02   -0.02   library hold time
+                                 -0.02   data required time
+-----------------------------------------------------------------------------
+                                 -0.02   data required time
+                                 -0.18   data arrival time
+-----------------------------------------------------------------------------
+                                  0.19   slack (MET)
+
+
+Startpoint: resetb (input port clocked by clock)
+Endpoint: _46452_ (recovery check against rising-edge clock clock)
+Path Group: **async_default**
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                         10.00   10.00 ^ input external delay
+                  0.48    0.33   10.33 ^ resetb (in)
+    98    0.20                           resetb (net)
+                  0.48    0.00   10.33 ^ hold24/A (sky130_fd_sc_hd__dlygate4sd3_1)
+                  2.98    3.26   13.59 ^ hold24/X (sky130_fd_sc_hd__dlygate4sd3_1)
+     6    0.20                           net28 (net)
+                  2.99    0.09   13.68 ^ _46452_/SET_B (sky130_fd_sc_hd__dfstp_2)
+                                 13.68   data arrival time
+
+                  0.00   50.00   50.00   clock clock (rise edge)
+                          0.00   50.00   clock network delay (ideal)
+                          0.00   50.00   clock reconvergence pessimism
+                                 50.00 ^ _46452_/CLK (sky130_fd_sc_hd__dfstp_2)
+                         -0.09   49.91   library recovery time
+                                 49.91   data required time
+-----------------------------------------------------------------------------
+                                 49.91   data required time
+                                -13.68   data arrival time
+-----------------------------------------------------------------------------
+                                 36.23   slack (MET)
+
+
+Startpoint: clock (clock source 'clock')
+Endpoint: mgmt_out_data[14] (output port clocked by clock)
+Path Group: clock
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00   25.00   25.00   clock clock (fall edge)
+                          9.59   34.59   clock network delay
+                                 34.59 v mgmt_out_data[14] (out)
+                                 34.59   data arrival time
+
+                  0.00   50.00   50.00   clock clock (rise edge)
+                          0.00   50.00   clock network delay (ideal)
+                          0.00   50.00   clock reconvergence pessimism
+                        -10.00   40.00   output external delay
+                                 40.00   data required time
+-----------------------------------------------------------------------------
+                                 40.00   data required time
+                                -34.59   data arrival time
+-----------------------------------------------------------------------------
+                                  5.41   slack (MET)
+
+

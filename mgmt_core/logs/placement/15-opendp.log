@@ -1,0 +1,43 @@
+OpenROAD 0.9.0 1415572a73
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Notice 0: Reading LEF file:  /project/openlane/mgmt_core/runs/mgmt_core/tmp/merged_unpadded.lef
+Notice 0:     Created 13 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 442 library cells
+Notice 0: Finished LEF file:  /project/openlane/mgmt_core/runs/mgmt_core/tmp/merged_unpadded.lef
+Notice 0: 
+Reading DEF file: /project/openlane/mgmt_core/runs/mgmt_core/tmp/placement/14-diodes.def
+Notice 0: Design: mgmt_core
+Notice 0:     Created 933 pins.
+Notice 0:     Created 74293 components and 379493 component-terminals.
+Notice 0:     Created 2 special nets and 0 connections.
+Notice 0:     Created 27382 nets and 121907 connections.
+Notice 0: Finished DEF file: /project/openlane/mgmt_core/runs/mgmt_core/tmp/placement/14-diodes.def
+Design Stats
+--------------------------------
+total instances         74293
+multi row instances         0
+fixed instances         20868
+nets                    27384
+design area          1826877.1 u^2
+fixed area            33778.1 u^2
+movable area         349137.4 u^2
+utilization                19 %
+utilization padded         19 %
+rows                      300
+row height                2.7 u
+
+Placement Analysis
+--------------------------------
+total displacement    26986.9 u
+average displacement      0.4 u
+max displacement         10.1 u
+original HPWL        2421749.2 u
+legalized HPWL       2451051.5 u
+delta HPWL                  1 %
+
+[INFO DPL-0020] Mirrored 17305 instances
+[INFO DPL-0021] HPWL before          2451051.5 u
+[INFO DPL-0022] HPWL after           2425620.1 u
+[INFO DPL-0023] HPWL delta               -1.0 %
